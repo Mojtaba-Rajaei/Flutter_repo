@@ -12,4 +12,8 @@ void main() {
   map.addAll({"hi": 2, "me": 0});
   map.removeWhere((key, value) => key == "who");
   print(map);
+  // foreach
+  map.forEach((key, value) {
+    print("$key:$value");
+  });
 }
