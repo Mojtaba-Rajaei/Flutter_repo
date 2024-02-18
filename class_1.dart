@@ -37,6 +37,7 @@ class Student {
     return Student.form1(name: name ?? "");
   }
 
+  Student.form3(this.name);
   factory Student.from2(String name) {
     return Student(name);
   }
